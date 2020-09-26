@@ -14,7 +14,7 @@ class Post
 
   def author_name
     #self.author.name == true?
-    self.author.name == true : self.author.name : nil
+    self.author.name || self.author.name == nil
   end
 
 
