@@ -13,7 +13,8 @@ class Post
   end
 
   def author_name
-    #title.author = Author.add_post(title)
+    #self.author.name == true?
+    self.author.name == true ? : self.author.name : nil
   end
 
 
