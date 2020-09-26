@@ -13,8 +13,8 @@ class Song
   end
 
   def artist_name
-    artist.name if self.artist.name.include?
-    nil if self.artist.name.include? != true
+    self.artist.name
+    nil if self.artist.name != true
   end
 
 end
